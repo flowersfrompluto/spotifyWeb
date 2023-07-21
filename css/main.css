@@ -1,0 +1,552 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: spotify-circular,Helvetica,Arial,sans-serif;
+}
+
+
+
+.flex{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    height: 60px;
+    padding-top: 10px;
+}
+nav .wide{
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+}
+nav ul{
+    list-style: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+nav .lists{
+    padding: 15px 18px;
+}
+nav .logo img{
+    width: 40px;
+    height: 40px;
+}
+nav .logo p{
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+/* ROW 1 STARTS HERE */
+
+.row1{
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    height: 620px;
+}
+.row1 .container1 {
+    width: 70%;
+    margin: auto;
+    padding-top: 95px;
+    padding-left: 150px;
+}
+.row1 .txt1 h1{
+    color: white;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 65px;
+}
+.row1 .txt1{
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.row1 .container1 .phone img{
+    padding-top: 25px;
+    height: 500px;
+}
+.row1 .txt1 .btn1{
+    padding-top: 50px;
+}
+.row1 .txt1 .btn1 button{
+    padding: 15px 25px;
+    border-radius: 25px;
+    border-color: transparent;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* ROW 2 STARTS HERE */
+
+.row2{
+    padding-top: 60px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.row2 .txt2{
+    padding: 40px 0px 60px 0px;
+}
+.row2 .txt2 h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+.row2 .column{
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+.row2 .column .col2{
+    padding: 10px;
+}
+.row2 .column .col2 h3{
+    font-weight: 600;
+    padding: 30px 15px 20px 15px;
+}
+.row2 .column .col2 p{
+    font-size: 15px;
+    font-weight: 100;
+}
+.row2 .column .col2 img{
+    width: 170px;
+    height: 170px;
+}
+
+/* ROW 3 STARTS HERE */
+
+.row3{
+    padding: 65px;
+    text-align: center;
+    background: linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    height: 275px;
+    color: white;
+}
+.row3 h1{
+    padding-top: 60px;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 65px;
+}
+
+/* ROW 4 STARTS HERE */
+
+.row4{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.row4 .txt4{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.row4 .txt4 h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+.row4 .faqs{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+.row4 .faqs h3{
+    /* font-size: 50px; */
+    font-weight: 800;
+    
+}
+.row4 .faqs .btn4{
+    padding: 5px 0px;
+}
+.row4 .faqs .btn4 button{
+    width: 100%;
+    text-align: left;
+    padding: 35px 90px;
+    border: 0.5px gainsboro;
+    background-color: transparent;
+}
+
+/* ROW  STARTS HERE */
+
+.row5{
+    background: url(https://www.scdn.co/i/free/lets-play.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+.row5 .txt5 h1{
+    padding: 100px 0px 50px 0px;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 65px;
+}
+
+.row5 .txt5 .btn5 button{
+    padding: 15px 25px;
+    border-radius: 25px;
+    border-color: transparent;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* FOOTER STARTS HERE */
+
+footer{
+    background-color: #000000;
+    padding: 50px 200px;
+}
+footer .logo img{
+    width: 40px;
+    height: 40px;
+}
+footer .logo p{
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+footer .footlinks{
+    padding-top: 20px;
+}
+footer .footlinks li{
+    color: grey;
+    list-style: none;
+    padding: 15px 50px;
+    font-size: 13px;
+    font-weight: 700;
+}
+footer .top{
+    justify-content: space-between;
+}
+.bottom {
+    padding: 80px 10px 30px 10px;
+    justify-content: space-between;
+}
+.bottom .left li{
+    color: grey;
+    list-style: none;
+    padding: 0px 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.bottom .left li a{
+    color: grey;
+}
+.bottom .right{
+    text-align: right;
+    font-size: 13px;
+    line-height: 20px;
+    color: grey;
+}
+.bottom .right a{
+    color: grey;
+}
+
+
+
+
+
+/* DOWNLOAD PAGE STARTS HERE */
+
+
+.dwnloadRow1{
+    background-color: #19E68C;
+    height: 550px;
+    text-align: center;
+}
+.dwnloadRow1 img{
+    height: 80px;
+    padding-bottom: 20px;
+}
+.dwnloadRow1 .container2{
+    padding: 130px 0px;
+}
+.dwnloadRow1 .container2 h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+.dwnloadRow1 .container2 p{
+    padding: 15px 0px 30px 0px;
+}
+.dwnloadRow1 .container2 button{
+    padding: 15px 25px;
+    border-radius: 25px;
+    border-color: transparent;
+    font-weight: 500;
+    font-size: 15px;
+}
+.dwnloadRow2{
+    text-align: center;
+}
+.dwnloadRow2 h1{
+    padding: 80px 0px 30px 0px;
+}
+.dwnloadRow2 .stores{
+    margin-top: -40px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.dwnloadRow3{
+    background-color: #222326;
+    padding: 60px;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+}
+.dwnloadList{
+    margin: auto;
+    width: 80%;
+}
+.dwnloadRow3 h1{
+    padding: 35px 0px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.dwnloadRow3 ul{
+    list-style: linear-gradient(-45deg, #1ED760 -5%, #1ED760);
+}
+.dwnloadRow3 li{
+    font-size: 15px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+.dwnloadRow3 img{
+    height: 230px;
+}
+.dwnloadRow3 .no{
+    list-style: none;
+}
+.dwnloadRow3 .color a{
+    color: #21b856;
+    text-decoration: 1px solid #21b856 underline;
+}
+
+
+/* SIGN UP PAGE HERE */
+
+
+.form{
+    /* background-color: #21b856;  */
+    width: 40%;
+    margin: auto;
+    padding: 50px 250px;
+}
+.signUp-logo .signlogo a{
+    justify-content: center;
+}
+.signUp-logo p{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.signUp-logo h1{
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+    font-size: 25px;
+    font-weight: 800;
+    word-spacing: -1px;
+}
+.sociallogin{
+    padding: 0px;
+    text-align: center;
+}
+.sociallogin .fBook{
+    padding: 10px;
+}
+.sociallogin .google{
+    padding: 10px 0px 40px 0px;
+}
+.sociallogin .fBook button{
+    padding: 15px 100px;
+    border-radius: 50px;
+    background-color: #384f81;
+    border: transparent;
+    font-size: 15px;
+}
+.sociallogin .google button{
+    padding: 15px 110px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid #535353;
+    font-size: 15px;
+}
+.sociallogin .google button a{
+    color: #535353;
+}
+form{
+    padding: 30px 0px 0px 0px;
+}
+.sect1{
+    padding: 10px 0px 30px 0px;
+}
+.opt1{
+    padding-bottom: 20px;
+}
+label{
+    font-size: 14px;
+    font-weight: 600;
+}
+.opt1 input{
+    background-color: transparent;
+    border: 1.5px solid #535353;
+    border-radius: 5px;
+    padding: 15px 440px 15px 10px;
+}
+.sect1 .opt1 label a{
+    font-size: 12px;
+    text-decoration: underline;
+    color: #117a37;
+}
+
+
+.sect2{
+    padding: 30px 0px;
+}
+.sect2 p{
+    padding: 20px 0px;
+    font-size: 14px;
+    font-weight: 600
+}
+.sect2 label{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sect2 .dateOfBirth{
+    justify-content: space-between;
+}
+hr{
+    width: 90%;
+    margin: auto;
+}
+.sect2 input{
+    background-color: transparent;
+    border: 1.5px solid #535353;
+    border-radius: 5px;
+    padding: 10px;
+}
+.sect3 .rd{
+    padding: 10px 0px;
+}
+.sect3 .rd input{
+    font-size: 15px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+input{
+    background-color: transparent;
+    border: 1.5px solid #535353;
+    border-radius: 5px;
+    padding: 15px 388px 15px 10px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOVER EFFECTS */
+
+nav .links a:hover{
+    color: #1ED760;
+}
+
+.row1 .txt1 .btn1 button:hover{
+    padding: 16px 28px;
+    font-size: 15px;
+}
+.faqs h3:hover{
+    text-decoration: 1.5px solid underline;
+}
+.row4 .faqs .btn4 button:hover{
+    background-color: whitesmoke;
+}
+.row5 .btn5 button:hover{
+    padding: 18px 30px;
+    font-size: 15px;
+    border-radius: 50px;
+}
+.footlinks li a:hover{
+    color: #1ED760;
+}
+.bottom .left li a:hover{
+    color: #1ED760;
+}
+.bottom .right a:hover{
+    color: #1ED760;
+}
+
+
+/* DOWNLOAD HOVER HERE */
+
+.dwnloadRow3 .color a:hover{
+    color: #1ED760;
+}
+.dwnloadRow1 .container2 button:hover{
+    padding: 16px 28px;
+    font-size: 15px;
+    border-radius: 50px;
+}

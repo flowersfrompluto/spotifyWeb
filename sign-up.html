@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/png" sizes="16x16" rel="icon" href="	https://wwwmarketing.scdn.co/img/favicon-96x96.png">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Sign up - Spotify</title>
+</head>
+<body>
+    <div class="signup">
+        <div class="form">
+            <div class="signUp-logo">
+                    <div class="signlogo">
+                        <a class="flex" href="https://open.spotify.com/?">
+                            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/spotify.png" alt="spotify"/>
+                            <p>Spotify</p>
+                        </a>
+                    </div>
+                    <h1>Sign up for free to start listening.</h1>
+            </div>
+            <div class="sociallogin">
+                <div class="fBook">
+                    <button>
+                        <a href="#">Sign up with Facebook</a>
+                    </button>
+                </div>
+                <div class="google">
+                    <button>
+                        <a href="#">Sign up with Google</a>
+                    </button>
+                </div>
+            </div>
+            
+            <hr>
+
+            <form>    
+                <div class="sect1">
+                    <div class="opt1">
+                        <div>
+                            <label class="email">What's your email?</label>
+                        </div>
+                        <div>
+                            <input type="text" id="email" name="email" placeholder="Enter your email.">
+                        </div>
+                        <label>
+                            <a href="#">Use phone number instead.</a>
+                        </label>
+                    </div>
+                    
+                    <div class="opt1">
+                        <div>
+                            <label class="password">Create a Password.</label>
+                        </div>
+                        <div>
+                            <input type="password" id="password" name="lname" placeholder="Create a Password.">
+                        </div>
+                    </div>
+                    <div class="opt1">
+                        <div>
+                            <label class="username">What should we call you?</label>
+                        </div>
+                        <div>
+                            <input type="text" id="username" name="username" placeholder="Enter a Profile Name">
+                        </div>
+                    </div>
+                </div>
+                
+                <hr>
+
+                <div class="sect2">
+                    <p>What's your date of birth?</p>
+                    <div class="dateOfBirth flex">
+                        <div class="mainDay">
+                            <label class="day">Day</label> <br>
+                            <input type="text" id="day" maxlength="2" name="day"placeholder="DD" required inputmode="numeric">
+                        </div>
+                        
+                        <div class="mainMonth">
+                            <label class="month">Month</label> <br>
+                            <input type="month" id="month" name="day"placeholder="MM" required>
+                        </div>
+                        
+                        <div class="mainYear">
+                            <label class="year">Year</label> <br>
+                            <input type="text" id="year" maxlength="4" name="day"placeholder="YYYY" required inputmode="numeric">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="sect3">
+                    <div>
+                        <label class="year">What's your 
+                        gender?</label>
+                    </div>
+                    <div class="rd">
+                        <input type="radio" name="male" id="male">Male
+                        <input type="radio" name="female" id="male">Female
+                        <input type="radio" name="other" id="male">Prefer not to say
+                    </div>
+                </div>
+
+                <div class="sect4">
+                    <input type="checkbox" name="offer" id="">I would prefer not to receive marketing messages from Spotify
+                    <input type="checkbox" name="offer" id="">Share my registration data with Spotify's content providers for marketing purposes.
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
