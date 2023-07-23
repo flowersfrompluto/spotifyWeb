@@ -211,7 +211,7 @@ footer .footlinks{
     padding-top: 20px;
 }
 footer .footlinks li{
-    color: grey;
+    color: #808080;
     list-style: none;
     padding: 15px 50px;
     font-size: 13px;
@@ -237,13 +237,20 @@ footer .top{
 .bottom .right{
     text-align: right;
     font-size: 13px;
-    line-height: 20px;
     color: grey;
+    margin-top: -25px;
 }
-.bottom .right a{
+.bottom .right .lang{
+    justify-content: right;
+    padding-bottom: 15px;
+}
+.bottom .right .lang a{
     color: grey;
+    font-weight: 500;
 }
-
+.bottom .right span img{
+    padding-right: 5px;
+}
 
 
 
@@ -299,7 +306,7 @@ footer .top{
 }
 .dwnloadList{
     margin: auto;
-    width: 80%;
+    width: 85%;
 }
 .dwnloadRow3 h1{
     padding: 35px 0px;
@@ -330,11 +337,11 @@ footer .top{
 
 
 .form{
-    /* background-color: #21b856;  */
-    width: 40%;
+    width: 35%;
     margin: auto;
     padding: 50px 250px;
 }
+
 .signUp-logo .signlogo a{
     justify-content: center;
 }
@@ -362,15 +369,21 @@ footer .top{
 .sociallogin .google{
     padding: 10px 0px 40px 0px;
 }
+.sociallogin button img{
+    padding-right: 10px;
+}
+.sociallogin button p{
+    padding-top: 5px;
+}
 .sociallogin .fBook button{
-    padding: 15px 100px;
+    padding: 6px 100px;
     border-radius: 50px;
     background-color: #384f81;
     border: transparent;
     font-size: 15px;
 }
 .sociallogin .google button{
-    padding: 15px 110px;
+    padding: 6px 110px;
     border-radius: 50px;
     background-color: transparent;
     border: 2px solid #535353;
@@ -379,24 +392,24 @@ footer .top{
 .sociallogin .google button a{
     color: #535353;
 }
-form{
-    padding: 30px 0px 0px 0px;
-}
+
+/* SECTION 1 STARTS HERE */
+
 .sect1{
     padding: 10px 0px 30px 0px;
 }
-.opt1{
+.sect1 .opt1{
     padding-bottom: 20px;
 }
-label{
+.sect1 label{
     font-size: 14px;
     font-weight: 600;
 }
-.opt1 input{
+.sect1 .opt1 input{
     background-color: transparent;
     border: 1.5px solid #535353;
     border-radius: 5px;
-    padding: 15px 440px 15px 10px;
+    padding: 15px 360px 15px 10px;
 }
 .sect1 .opt1 label a{
     font-size: 12px;
@@ -404,6 +417,7 @@ label{
     color: #117a37;
 }
 
+/* SECTION 2 STARTS HERE */
 
 .sect2{
     padding: 30px 0px;
@@ -417,90 +431,89 @@ label{
     font-size: 14px;
     font-weight: 400;
 }
-
+.sect2 .labelled{
+    padding-bottom: 10px;
+}
 .sect2 .dateOfBirth{
     justify-content: space-between;
 }
-hr{
-    width: 90%;
-    margin: auto;
+.sect2 .month {
+    padding-bottom: 10px;
 }
 .sect2 input{
     background-color: transparent;
     border: 1.5px solid #535353;
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 1px;
 }
-.sect3 .rd{
+
+/* HR TAG */
+
+hr{
+    width: 80%;
+    margin: auto;
+}
+
+/* SECTION 3 STARTS HERE */
+
+.sect3 .radioBtn{
     padding: 10px 0px;
 }
-.sect3 .rd input{
-    font-size: 15px;
-    
+.sect3 .radioBtn p{
+    padding-left: 10px;
+}
+.sect3 .rdio{
+    padding-right: 20px;
+}
+.sect3 label{
+    font-size: 14px;
+    font-weight: 600;
 }
 
+/* SECTION 4 STARTS HERE */
 
+.sect4{
+    padding-top: 10px;
+}
+.sect4 .terms{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+.sect4 .check{
+    width: 85%;
+    padding: 15px 0px 10px 0px;
+    font-size: 14px;
+}
+.sect4 .check p{
+    padding-left: 10px;
+}
+.sect4 a{
+    color: #21b856;
+    text-decoration: underline;
+}
 
+/* SECTION 5 STARTS HERE */
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-input{
-    background-color: transparent;
-    border: 1.5px solid #535353;
-    border-radius: 5px;
-    padding: 15px 388px 15px 10px;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.sect5 .signupBtn{
+    text-align: center;
+}
+.sect5 .signupBtn button{
+    padding: 15px 40px;
+    border-radius: 25px;
+    border-color: transparent;
+    font-weight: 700;
+    font-size: 17px;
+    background-color: #1ED760;
+}
+.sect5 p{
+    padding-top: 30px;
+    text-align: center;
+}
+.sect5 a{
+    color: #21b856;
+    text-decoration: underline;
+}
 
 
 
@@ -515,8 +528,8 @@ nav .links a:hover{
 }
 
 .row1 .txt1 .btn1 button:hover{
-    padding: 16px 28px;
-    font-size: 15px;
+    /* padding: 16px 28px; */
+    font-size: 17px;
 }
 .faqs h3:hover{
     text-decoration: 1.5px solid underline;
@@ -546,7 +559,28 @@ nav .links a:hover{
     color: #1ED760;
 }
 .dwnloadRow1 .container2 button:hover{
-    padding: 16px 28px;
-    font-size: 15px;
-    border-radius: 50px;
+    font-size: 17px;
 }
+
+
+/* SIGN UP HOVER */
+
+.sociallogin .fBook button:hover{
+    font-size: 17px;
+}
+.sociallogin .google button:hover{
+    font-size: 17px;
+}
+
+.sect1 .opt1 input:hover{
+    border: 1.7px solid #535353;
+}
+.sect2 input:hover{
+    border: 1.7px solid #535353;
+}
+.sect5 .signupBtn button:hover{
+    font-weight: 600;
+    font-size: 19px;
+}
+
+

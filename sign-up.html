@@ -22,12 +22,16 @@
             <div class="sociallogin">
                 <div class="fBook">
                     <button>
-                        <a href="#">Sign up with Facebook</a>
+                        <a class="flex" href="#">
+                            <span><img width="25" height="25" src="https://img.icons8.com/fluency-systems-filled/48/ffffff/facebook-new.png" alt="facebook-new"/></span> <p>Sign up with Facebook</p>
+                        </a>
                     </button>
                 </div>
                 <div class="google">
                     <button>
-                        <a href="#">Sign up with Google</a>
+                        <a class="flex" href="#">
+                            <span><img width="25" height="25" src="https://img.icons8.com/color/48/google-logo.png" alt="google-logo"/></span> <p>Sign up with Google</p>
+                        </a>
                     </button>
                 </div>
             </div>
@@ -72,18 +76,30 @@
                     <p>What's your date of birth?</p>
                     <div class="dateOfBirth flex">
                         <div class="mainDay">
-                            <label class="day">Day</label> <br>
-                            <input type="text" id="day" maxlength="2" name="day"placeholder="DD" required inputmode="numeric">
+                            <div class="labelled">
+                                <label class="day">Day</label>
+                            </div>
+                            <div>
+                                <input type="text" id="day" maxlength="2" name="day"placeholder="DD" required inputmode="numeric">
+                            </div>
                         </div>
                         
                         <div class="mainMonth">
-                            <label class="month">Month</label> <br>
-                            <input type="month" id="month" name="day"placeholder="MM" required>
+                            <div class="labelled">
+                                <label class="month">Month</label>
+                            </div>
+                            <div>
+                                <input type="month" id="month" name="day"placeholder="MM" required>
+                            </div>
                         </div>
                         
                         <div class="mainYear">
-                            <label class="year">Year</label> <br>
-                            <input type="text" id="year" maxlength="4" name="day"placeholder="YYYY" required inputmode="numeric">
+                            <div class="labelled">
+                                <label class="year">Year</label>
+                            </div>
+                            <div>
+                                <input type="text" id="year" maxlength="4" name="day"placeholder="YYYY" required inputmode="numeric">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -94,17 +110,55 @@
                         <label class="year">What's your 
                         gender?</label>
                     </div>
-                    <div class="rd">
-                        <input type="radio" name="male" id="male">Male
-                        <input type="radio" name="female" id="male">Female
-                        <input type="radio" name="other" id="male">Prefer not to say
+                    <div class="radioBtn flex">
+                        <div class="rdio flex">
+                            <span>
+                                <input type="radio" name="gender" id="male">
+                            </span>
+                            <p>Male</p>
+                        </div>
+                        <div class="rdio flex">
+                            <span>
+                                <input type="radio" name="gender" id="female">
+                            </span>
+                            <p>Female</p>
+                        </div>
+                        <div class="rdio flex">
+                            <span style="color:#21b856">
+                                <input type="radio" name="gender" id="other">
+                            </span>
+                            <p>Prefer not to say</p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="sect4">
-                    <input type="checkbox" name="offer" id="">I would prefer not to receive marketing messages from Spotify
-                    <input type="checkbox" name="offer" id="">Share my registration data with Spotify's content providers for marketing purposes.
+                    <div class="check flex">
+                        <span>
+                            <input type="checkbox" name="offer" id="">
+                        </span>
+                        <p>I would prefer not to receive marketing messages from Spotify</p>
+                    </div>
+                    <div class="check flex">
+                        <span>
+                            <input type="checkbox" name="offer" id="">
+                        </span>
+                        <p>Share my registration data with Spotify's content providers for marketing purposes.</p>
+                    </div>
+                    <p class="terms">
+                        By clicking on sign-up, you agree to the <a href="#">Spotify Terms and Conditions</a> and <a href="#">Privacy Policy</a>.
+                    </p>
                 </div>
+
+                <div class="sect5">
+                    <div class="signupBtn">
+                        <button>Sign up</button>
+                    </div>
+                    <div class="acct">
+                        <p>Have an account? <a href="#">Log in</a>.</p>
+                    </div>
+                </div>
+                
             </form>
         </div>
     </div>
